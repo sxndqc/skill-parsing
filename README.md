@@ -1,5 +1,9 @@
 # UMR layered parser — peeling a sentence one skill at a time
 
+> Recursive-descent semantic parsing into UMR graphs — four composable skills, an
+> orchestrating harness (heuristic or LLM-driven), and a human-in-the-loop
+> correction loop. MIT licensed.
+
 A small system that parses an English sentence into a
 [UMR](https://github.com/umr4nlp/umr-guidelines/blob/master/guidelines.md)
 (Uniform Meaning Representation) graph the way a person actually does it:
