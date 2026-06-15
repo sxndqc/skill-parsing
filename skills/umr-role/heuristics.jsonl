@@ -1,0 +1,6 @@
+# Learned corrections for the RELATION layer (umr-role). One JSON rule per line.
+# Format:  {"match": {<context conditions>}, "set": {"relation": ":xxx"}, "note": "..."}
+# match keys: head_concept, head_text, child_text, category, relation_hint
+#             (add the suffix _regex to any key to match by regular expression)
+# Add with:  python correct.py role --head give-01 --child "her friend" --relation :recipient
+{"match": {"head_concept": "give-01", "child_text": "her friend"}, "set": {"relation": ":recipient"}, "note": "animate receiver, not spatial goal", "added": "2026-06-05"}

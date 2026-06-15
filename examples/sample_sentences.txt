@@ -1,0 +1,11 @@
+# Sample sentences for the UMR layered parser.
+# Lines starting with '#' are ignored. Run:
+#   python harness.py --file examples/sample_sentences.txt --trace
+Edmund Pope tasted freedom today.
+He denied any wrongdoing.
+I will go for a walk or play some soccer.
+Sarah moved back to California because she could not find a job.
+Pope was flown to the military base in Germany.
+The president pardoned him for health reasons.
+She gave the book to her friend.
+They barbecued chicken at home.

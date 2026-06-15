@@ -1,0 +1,5 @@
+# Learned corrections for the PREDICATE layer (umr-predicate). One JSON rule per line.
+# Format:  {"match": {"span"/"span_regex"/"verb"/"verb_regex"/"verb_surface"/"concept": ...}, "set": {...}, "note": "..."}
+# set keys: concept, aspect, modstr
+# Add with:  python correct.py predicate --verb-surface barbecued --concept barbecue-01 --aspect Performance
+{"match": {"verb_surface_regex": "^barbecu"}, "set": {"concept": "barbecue-01", "aspect": "Performance"}, "note": "lemmatizer drops the silent -e; fix to barbecue-01", "added": "2026-06-05"}

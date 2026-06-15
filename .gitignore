@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Local Claude Code settings (machine-specific permissions)
+.claude/settings.local.json
+
+# OS
+.DS_Store

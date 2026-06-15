@@ -1,0 +1,4 @@
+# Learned corrections for the ENTITY layer (umr-entity). One JSON rule per line.
+# Format:  {"match": {"span"/"span_regex": ...}, "set": {...}, "note": "..."}
+# set keys: ne_type, name, wiki, concept, head, ref_number, ref_person
+# Add with:  python correct.py entity --span "bone cancer" --ne-type disease

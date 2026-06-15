@@ -1,0 +1,3 @@
+# Learned corrections for the DISCOURSE layer (umr-segment). One JSON rule per line.
+# Format:  {"match": {"span"/"span_regex": ...}, "set": {"no_split": true | "connective": "and"}, "note": "..."}
+# Add with:  python correct.py segment --span "rock and roll is here to stay" --no-split
