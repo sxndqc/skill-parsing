@@ -1,5 +1,7 @@
 # UMR layered parser — peeling a sentence one skill at a time
 
+[![CI](https://github.com/sxndqc/skill-parsing/actions/workflows/ci.yml/badge.svg)](https://github.com/sxndqc/skill-parsing/actions/workflows/ci.yml)
+
 > Recursive-descent semantic parsing into UMR graphs — four composable skills, an
 > orchestrating harness (heuristic or LLM-driven), and a human-in-the-loop
 > correction loop. MIT licensed.

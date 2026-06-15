@@ -15,7 +15,7 @@
 
 ## 0. 环境
 
-- Python 3.8+，**零依赖**即可跑（`--engine mock`）。
+- Python 3.9+，**零依赖**即可跑（`--engine mock`）。CI 在 3.9 / 3.11 / 3.13 上跑测试。
 - 装了 spaCy 会让启发式标注更准（可选）：
   `pip install spacy && python -m spacy download en_core_web_sm`
 - 想用模型判断（`--engine claude`），需要 PATH 上有 `claude` CLI。
